@@ -90,7 +90,7 @@ h1 {
 
 .card:hover {
   transform: scale(1.03);
-  box-shadow: 5px 5px 10px rgb(58, 49, 49);
+  box-shadow: 5px 5px 10px whitesmoke;
 }
 
 .cardContent {
@@ -182,4 +182,15 @@ hr {
   margin: 5px;
   padding: 15px;
   background-color: darkcyan;
+}
+
+.post {
+  margin: 10px auto;
+  max-width: 500px;
+  padding: 10px;
+  background-color: coral;
+}
+
+.post > h3 {
+  text-align: center;
 }
