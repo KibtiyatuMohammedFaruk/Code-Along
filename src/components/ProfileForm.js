@@ -1,4 +1,4 @@
-import React, { Profiler, useState } from 'react'
+import React, { useState } from 'react'
 
 const ProfileForm = () => {
     const [profile, setProfile] = useState({
